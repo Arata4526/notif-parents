@@ -1,14 +1,14 @@
 # AF902 Yaoundé → Paris-CDG : En descente vers Paris
 
-_Mis à jour à 06:42:19 (heure de Paris). Rafraîchir la page pour la dernière version._
+_Mis à jour à 06:43:18 (heure de Paris). Rafraîchir la page pour la dernière version._
 
 ## Atterrissage estimé : 07:11  (Flightradar24)
 
 | | |
 |---|---|
-| Position | 47.34, 4.39 · **231 km de CDG** (il y a 1 s, adsb.lol) |
-| Altitude | 34 300 ft (-2624 ft/min) |
-| Vitesse sol | 479 kt (887 km/h) |
+| Position | 47.47, 4.32 · **216 km de CDG** (il y a 0 s, adsb.lol) |
+| Altitude | 31 175 ft (-3264 ft/min) |
+| Vitesse sol | 488 kt (903 km/h) |
 | Avion | Boeing 787-9 Dreamliner F-HRBJ |
 | Arrivée | Terminal 2E · porte — · tapis bagages — |
 | Décollage | 00:34 heure de Paris (Flightradar24) |
