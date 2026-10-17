@@ -1,0 +1,94 @@
+{
+  "flight": "AF902",
+  "route": "Yaoundé (NSI) → Paris-CDG",
+  "updated_at": "2026-10-17T00:03:47Z",
+  "phase": "cruise",
+  "phase_label": "En croisière",
+  "landed": false,
+  "landed_at": null,
+  "landed_source": null,
+  "at_gate": false,
+  "at_gate_at": null,
+  "eta": {
+    "best": "2026-10-17T05:04:24Z",
+    "best_source": "Flightradar24",
+    "flightradar24": "2026-10-17T05:04:24Z",
+    "flightaware_landing": "2026-10-17T04:46:00Z",
+    "flightaware_gate": "2026-10-17T04:56:00Z",
+    "adsb_calc": "2026-10-17T04:57:44Z",
+    "announced": "2026-10-17T05:35:00Z",
+    "scheduled": "2026-10-17T04:35:00Z"
+  },
+  "departure": {
+    "scheduled": "2026-10-16T21:25:00Z",
+    "announced": "2026-10-16T22:35:00Z",
+    "actual": "2026-10-16T22:34:41Z",
+    "source": "Flightradar24"
+  },
+  "position": {
+    "source": "flightradar24",
+    "lat": 10.533417,
+    "lon": 2.637903,
+    "alt_ft": 35975,
+    "on_ground": false,
+    "gs_kt": 496,
+    "track": 323,
+    "vs_fpm": null,
+    "at": "2026-10-17T00:03:23Z",
+    "age_s": 24,
+    "dist_km": 4278
+  },
+  "approach_seen": null,
+  "aircraft": {
+    "reg": "F-HRBJ",
+    "type": "B789",
+    "model": "Boeing 787-9 Dreamliner",
+    "hex": "39c429",
+    "callsign": "AFR902"
+  },
+  "airport": {
+    "terminal": "2E",
+    "gate": "1",
+    "baggage": null
+  },
+  "fr24_text": "Delayed 07:04",
+  "sources": {
+    "airplanes.live": {
+      "ok": false,
+      "at": "2026-10-17T00:03:45Z",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "adsb.lol": {
+      "ok": true,
+      "at": "2026-10-17T00:03:45Z",
+      "error": null
+    },
+    "adsb.fi": {
+      "ok": true,
+      "at": "2026-10-17T00:03:46Z",
+      "error": null
+    },
+    "flightradar24": {
+      "ok": true,
+      "at": "2026-10-17T00:03:46Z",
+      "error": null
+    },
+    "flightradar24-trace": {
+      "ok": true,
+      "at": "2026-10-17T00:03:46Z",
+      "error": null
+    },
+    "flightaware": {
+      "ok": true,
+      "at": "2026-10-17T00:03:47Z",
+      "error": null
+    }
+  },
+  "events": [],
+  "notified": {},
+  "run": {
+    "id": "38984579257",
+    "started_at": "2026-10-17T00:03:45Z",
+    "url": "https://github.com/Arata4526/notif-parents/actions/runs/38984579257"
+  }
+}
