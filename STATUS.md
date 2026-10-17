@@ -1,6 +1,6 @@
-# AF902 Yaoundé → Paris-CDG : Atterri à CDG
+# AF902 Yaoundé → Paris-CDG : Arrivé au terminal
 
-_Mis à jour à 07:20:19 (heure de Paris). Rafraîchir la page pour la dernière version._
+_Mis à jour à 07:21:19 (heure de Paris). Rafraîchir la page pour la dernière version._
 
 ## Atterri à 07:10  (Flightradar24)
 
@@ -29,6 +29,7 @@ _Mis à jour à 07:20:19 (heure de Paris). Rafraîchir la page pour la dernière
 - 06:41 · Début de la descente vers Paris
 - 07:00 · En approche finale sur CDG
 - 07:10 · Atterri à 07:10 (source : Flightradar24)
+- 07:21 · Arrivé au contact à 07:16
 
 ## Sources
 

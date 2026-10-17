@@ -1,14 +1,14 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T05:20:19Z",
-  "phase": "landed",
-  "phase_label": "Atterri à CDG",
+  "updated_at": "2026-10-17T05:21:19Z",
+  "phase": "at_gate",
+  "phase_label": "Arrivé au terminal",
   "landed": true,
   "landed_at": "2026-10-17T05:10:08Z",
   "landed_source": "Flightradar24",
-  "at_gate": false,
-  "at_gate_at": null,
+  "at_gate": true,
+  "at_gate_at": "2026-10-17T05:16:00Z",
   "eta": {
     "best": "2026-10-17T05:10:08Z",
     "best_source": "atterrissage réel",
@@ -55,17 +55,17 @@
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T05:20:17Z",
+      "at": "2026-10-17T05:21:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T05:20:18Z",
+      "at": "2026-10-17T05:21:18Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T05:20:18Z",
+      "at": "2026-10-17T05:21:18Z",
       "error": null
     },
     "flightradar24": {
@@ -80,7 +80,7 @@
     },
     "flightaware": {
       "ok": true,
-      "at": "2026-10-17T05:20:19Z",
+      "at": "2026-10-17T05:21:19Z",
       "error": null
     }
   },
@@ -99,11 +99,17 @@
       "at": "2026-10-17T05:10:20Z",
       "type": "landed",
       "text": "Atterri à 07:10 (source : Flightradar24)"
+    },
+    {
+      "at": "2026-10-17T05:21:19Z",
+      "type": "at_gate",
+      "text": "Arrivé au contact à 07:16"
     }
   ],
   "notified": {
     "descent": "2026-10-17T04:41:18Z",
-    "landed": "2026-10-17T05:10:21Z"
+    "landed": "2026-10-17T05:10:21Z",
+    "at_gate": "2026-10-17T05:21:19Z"
   },
   "run": {
     "id": "38985056982",
