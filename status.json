@@ -1,9 +1,9 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T04:40:18Z",
-  "phase": "cruise",
-  "phase_label": "En croisière",
+  "updated_at": "2026-10-17T04:41:18Z",
+  "phase": "descent",
+  "phase_label": "En descente vers Paris",
   "landed": false,
   "landed_at": null,
   "landed_source": null,
@@ -15,7 +15,7 @@
     "flightradar24": "2026-10-17T05:11:41Z",
     "flightaware_landing": "2026-10-17T05:09:00Z",
     "flightaware_gate": "2026-10-17T05:18:00Z",
-    "adsb_calc": "2026-10-17T05:12:13Z",
+    "adsb_calc": "2026-10-17T05:12:20Z",
     "announced": "2026-10-17T05:35:00Z",
     "scheduled": "2026-10-17T04:35:00Z"
   },
@@ -27,21 +27,21 @@
   },
   "position": {
     "source": "adsb.lol",
-    "lat": 47.091033,
-    "lon": 4.522776,
-    "alt_ft": 37825,
+    "lat": 47.215095,
+    "lon": 4.456928,
+    "alt_ft": 36900,
     "on_ground": false,
-    "gs_kt": 484.0,
-    "track": 340.07,
-    "vs_fpm": -416,
+    "gs_kt": 475.5,
+    "track": 340.08,
+    "vs_fpm": -1504,
     "hex": "39c429",
     "reg": "F-HRBJ",
     "type": "B789",
     "callsign": "AFR902",
     "squawk": "5571",
-    "at": "2026-10-17T04:40:17Z",
-    "age_s": 0,
-    "dist_km": 259
+    "at": "2026-10-17T04:41:17Z",
+    "age_s": 1,
+    "dist_km": 245
   },
   "approach_seen": null,
   "aircraft": {
@@ -60,17 +60,17 @@
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T04:40:17Z",
+      "at": "2026-10-17T04:41:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T04:40:17Z",
+      "at": "2026-10-17T04:41:17Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T04:40:17Z",
+      "at": "2026-10-17T04:41:18Z",
       "error": null
     },
     "flightradar24": {
@@ -89,8 +89,16 @@
       "error": null
     }
   },
-  "events": [],
-  "notified": {},
+  "events": [
+    {
+      "at": "2026-10-17T04:41:18Z",
+      "type": "descent",
+      "text": "Début de la descente vers Paris"
+    }
+  ],
+  "notified": {
+    "descent": "2026-10-17T04:41:18Z"
+  },
   "run": {
     "id": "38985056982",
     "started_at": "2026-10-17T00:10:17Z",
