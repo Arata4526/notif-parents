@@ -1,7 +1,7 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T04:22:18Z",
+  "updated_at": "2026-10-17T04:23:18Z",
   "phase": "cruise",
   "phase_label": "En croisière",
   "landed": false,
@@ -15,7 +15,7 @@
     "flightradar24": "2026-10-17T05:11:32Z",
     "flightaware_landing": "2026-10-17T05:08:00Z",
     "flightaware_gate": "2026-10-17T05:17:00Z",
-    "adsb_calc": "2026-10-17T05:11:03Z",
+    "adsb_calc": "2026-10-17T05:11:21Z",
     "announced": "2026-10-17T05:35:00Z",
     "scheduled": "2026-10-17T04:35:00Z"
   },
@@ -27,21 +27,21 @@
   },
   "position": {
     "source": "adsb.lol",
-    "lat": 44.742985,
-    "lon": 4.910822,
+    "lat": 44.874449,
+    "lon": 4.92643,
     "alt_ft": 38000,
     "on_ground": false,
-    "gs_kt": 478.7,
-    "track": 4.79,
-    "vs_fpm": -96,
+    "gs_kt": 474.6,
+    "track": 4.71,
+    "vs_fpm": 0,
     "hex": "39c429",
     "reg": "F-HRBJ",
     "type": "B789",
     "callsign": "AFR902",
     "squawk": "5571",
-    "at": "2026-10-17T04:22:17Z",
+    "at": "2026-10-17T04:23:17Z",
     "age_s": 0,
-    "dist_km": 507
+    "dist_km": 494
   },
   "approach_seen": null,
   "aircraft": {
@@ -60,17 +60,17 @@
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T04:22:17Z",
+      "at": "2026-10-17T04:23:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T04:22:17Z",
+      "at": "2026-10-17T04:23:17Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T04:22:17Z",
+      "at": "2026-10-17T04:23:18Z",
       "error": null
     },
     "flightradar24": {
