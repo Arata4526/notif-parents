@@ -2,3 +2,6 @@
 {"t": "2026-10-17T00:04:46Z", "phase": "cruise", "eta": "2026-10-17T05:04:24Z", "eta_src": "Flightradar24", "lat": 10.650146, "lon": 2.552096, "alt": 36000, "gs": 496, "dist": 4265, "age": 21}
 {"t": "2026-10-17T00:05:47Z", "phase": "cruise", "eta": "2026-10-17T05:04:24Z", "eta_src": "Flightradar24", "lat": 10.769721, "lon": 2.464118, "alt": 36000, "gs": 495, "dist": 4252, "age": 17}
 {"t": "2026-10-17T00:06:46Z", "phase": "cruise", "eta": "2026-10-17T05:04:24Z", "eta_src": "Flightradar24", "lat": 10.886101, "lon": 2.378396, "alt": 36000, "gs": 492, "dist": 4239, "age": 14}
+{"t": "2026-10-17T00:07:47Z", "phase": "cruise", "eta": "2026-10-17T05:07:38Z", "eta_src": "Flightradar24", "lat": 11.004593, "lon": 2.290934, "alt": 36000, "gs": 493, "dist": 4226, "age": 10}
+{"t": "2026-10-17T00:08:46Z", "phase": "cruise", "eta": "2026-10-17T05:07:38Z", "eta_src": "Flightradar24", "lat": 11.12119, "lon": 2.201506, "alt": 35975, "gs": 492, "dist": 4213, "age": 6}
+{"t": "2026-10-17T00:09:46Z", "phase": "cruise", "eta": "2026-10-17T05:09:14Z", "eta_src": "Flightradar24", "lat": 11.177891, "lon": 2.157802, "alt": 35975, "gs": 492, "dist": 4207, "age": 34}
