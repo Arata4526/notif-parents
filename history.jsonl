@@ -309,3 +309,4 @@
 {"t": "2026-10-17T05:11:20Z", "phase": "landed", "eta": "2026-10-17T05:10:08Z", "eta_src": "atterrissage réel", "lat": 48.994682, "lon": 2.568361, "alt": 0, "gs": 15, "dist": 2, "age": 15}
 {"t": "2026-10-17T05:12:20Z", "phase": "landed", "eta": "2026-10-17T05:10:08Z", "eta_src": "atterrissage réel", "lat": 48.996243, "lon": 2.566247, "alt": 0, "gs": 14, "dist": 2, "age": 28}
 {"t": "2026-10-17T05:13:20Z", "phase": "landed", "eta": "2026-10-17T05:10:08Z", "eta_src": "atterrissage réel", "lat": 48.99884, "lon": 2.565924, "alt": 0, "gs": 8, "dist": 2, "age": 6}
+{"t": "2026-10-17T05:14:19Z", "phase": "landed", "eta": "2026-10-17T05:10:08Z", "eta_src": "atterrissage réel", "lat": 48.99942, "lon": 2.569952, "alt": 0, "gs": 15, "dist": 2, "age": 7}
