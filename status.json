@@ -1,7 +1,7 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T04:45:18Z",
+  "updated_at": "2026-10-17T04:46:18Z",
   "phase": "descent",
   "phase_label": "En descente vers Paris",
   "landed": false,
@@ -10,12 +10,12 @@
   "at_gate": false,
   "at_gate_at": null,
   "eta": {
-    "best": "2026-10-17T05:10:18Z",
+    "best": "2026-10-17T05:09:09Z",
     "best_source": "Flightradar24",
-    "flightradar24": "2026-10-17T05:10:18Z",
+    "flightradar24": "2026-10-17T05:09:09Z",
     "flightaware_landing": "2026-10-17T05:08:00Z",
     "flightaware_gate": "2026-10-17T05:16:00Z",
-    "adsb_calc": "2026-10-17T05:11:27Z",
+    "adsb_calc": "2026-10-17T05:10:38Z",
     "announced": "2026-10-17T05:35:00Z",
     "scheduled": "2026-10-17T04:35:00Z"
   },
@@ -27,21 +27,21 @@
   },
   "position": {
     "source": "adsb.lol",
-    "lat": 47.72081,
-    "lon": 4.184555,
-    "alt_ft": 25375,
+    "lat": 47.845785,
+    "lon": 4.116633,
+    "alt_ft": 22725,
     "on_ground": false,
-    "gs_kt": 482.8,
-    "track": 339.76,
-    "vs_fpm": -2720,
+    "gs_kt": 472.0,
+    "track": 339.8,
+    "vs_fpm": -2624,
     "hex": "39c429",
     "reg": "F-HRBJ",
     "type": "B789",
     "callsign": "AFR902",
     "squawk": "5571",
-    "at": "2026-10-17T04:45:17Z",
-    "age_s": 1,
-    "dist_km": 187
+    "at": "2026-10-17T04:46:17Z",
+    "age_s": 0,
+    "dist_km": 174
   },
   "approach_seen": null,
   "aircraft": {
@@ -56,26 +56,26 @@
     "gate": null,
     "baggage": null
   },
-  "fr24_text": "Delayed 07:10",
+  "fr24_text": "Delayed 07:09",
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T04:45:17Z",
+      "at": "2026-10-17T04:46:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T04:45:18Z",
+      "at": "2026-10-17T04:46:17Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T04:45:18Z",
+      "at": "2026-10-17T04:46:18Z",
       "error": null
     },
     "flightradar24": {
       "ok": true,
-      "at": "2026-10-17T04:45:18Z",
+      "at": "2026-10-17T04:46:18Z",
       "error": null
     },
     "flightradar24-trace": {
@@ -85,7 +85,7 @@
     },
     "flightaware": {
       "ok": true,
-      "at": "2026-10-17T04:42:19Z",
+      "at": "2026-10-17T04:46:18Z",
       "error": null
     }
   },
