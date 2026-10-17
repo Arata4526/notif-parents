@@ -1,7 +1,7 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T04:37:18Z",
+  "updated_at": "2026-10-17T04:38:19Z",
   "phase": "cruise",
   "phase_label": "En croisière",
   "landed": false,
@@ -15,7 +15,7 @@
     "flightradar24": "2026-10-17T05:11:41Z",
     "flightaware_landing": "2026-10-17T05:09:00Z",
     "flightaware_gate": "2026-10-17T05:18:00Z",
-    "adsb_calc": "2026-10-17T05:12:07Z",
+    "adsb_calc": "2026-10-17T05:12:04Z",
     "announced": "2026-10-17T05:35:00Z",
     "scheduled": "2026-10-17T04:35:00Z"
   },
@@ -26,22 +26,22 @@
     "source": "Flightradar24"
   },
   "position": {
-    "source": "adsb.fi",
-    "lat": 46.708466,
-    "lon": 4.724121,
-    "alt_ft": 37975,
+    "source": "adsb.lol",
+    "lat": 46.834396,
+    "lon": 4.658069,
+    "alt_ft": 38000,
     "on_ground": false,
-    "gs_kt": 487.8,
-    "track": 340.23,
-    "vs_fpm": 64,
+    "gs_kt": 491.9,
+    "track": 340.28,
+    "vs_fpm": -160,
     "hex": "39c429",
     "reg": "F-HRBJ",
     "type": "B789",
     "callsign": "AFR902",
     "squawk": "5571",
-    "at": "2026-10-17T04:37:17Z",
-    "age_s": 0,
-    "dist_km": 303
+    "at": "2026-10-17T04:38:17Z",
+    "age_s": 1,
+    "dist_km": 288
   },
   "approach_seen": null,
   "aircraft": {
@@ -60,22 +60,22 @@
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T04:37:17Z",
+      "at": "2026-10-17T04:38:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T04:37:17Z",
+      "at": "2026-10-17T04:38:17Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T04:37:18Z",
+      "at": "2026-10-17T04:38:18Z",
       "error": null
     },
     "flightradar24": {
       "ok": true,
-      "at": "2026-10-17T04:36:18Z",
+      "at": "2026-10-17T04:38:18Z",
       "error": null
     },
     "flightradar24-trace": {
@@ -85,7 +85,7 @@
     },
     "flightaware": {
       "ok": true,
-      "at": "2026-10-17T04:34:19Z",
+      "at": "2026-10-17T04:38:19Z",
       "error": null
     }
   },
