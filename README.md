@@ -38,9 +38,10 @@ flowchart LR
    (un point par minute). Les commits sont toutes les 3 min en croisière,
    toutes les minutes dans l'heure qui précède l'arrivée.
 3. **La session Claude** surveille cette branche (`scripts/watch_live.py`,
-   lancé dans l'outil Monitor) : changement de phase, ETA qui bouge de 5 min
-   ou plus, atterrissage, traqueur muet depuis plus de 8 min.
-   Elle envoie la notification push à l'atterrissage et met à jour le tableau de bord.
+   lancé dans l'outil Monitor). Pour consommer peu de tokens, elle ne se
+   réveille que pour l'atterrissage, un traqueur muet depuis plus de 8 min, et
+   un rafraîchissement du tableau de bord toutes les 30 min (10 min en descente).
+   Elle envoie la notification push à l'atterrissage.
 4. **Des réveils programmés** (06:45, 07:00, 07:15, 07:30, 07:50, plus deux
    pendant la nuit) relancent la surveillance si le conteneur de la session a été
    recyclé, et rattrapent la notification si elle a été manquée.
@@ -104,6 +105,8 @@ Le vol du jour est choisi par son horaire de départ (le plus proche du
   que la requête Flightradar24 (`query=af902`) et l'URL FlightAware.
 - **Coût** : le dépôt est privé, une nuit de suivi consomme environ 6 h de
   minutes GitHub Actions (le forfait gratuit en inclut 2 000 par mois).
+  Le traqueur ne consomme aucun token Claude ; seule la session Claude en
+  consomme, à chaque réveil (une vingtaine de tours courts sur la nuit).
 
 ## Limites connues
 

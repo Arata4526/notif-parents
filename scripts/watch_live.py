@@ -111,32 +111,32 @@ def main():
             p = s.get("position") or {}
             if p:
                 summary += f" · {p.get('dist_km')} km, {p.get('alt_ft')} ft"
-            refresh_every = 300 if s["phase"] in ("descent", "approach", "landed") else 1200
-            due = t.timestamp() - mem.get("last_emit", 0) > refresh_every
-
+            # Peu de réveils : l'atterrissage, un traqueur muet, et un rafraîchissement
+            # du tableau de bord toutes les 30 min (10 min en descente).
+            busy = s["phase"] in ("descent", "approach", "landed")
+            refresh_every = 600 if busy else 1800
+            ap_ = s["airport"]
+            out = None
             if s["landed"] and not mem.get("landed"):
                 mem["landed"] = s["landed_at"]
-                emit(f"LANDED {hhmm(s['landed_at'])} ({s['landed_source']}) · terminal "
-                     f"{s['airport'].get('terminal')} porte {s['airport'].get('gate')} "
-                     f"tapis {s['airport'].get('baggage')}")
+                out = (f"LANDED {hhmm(s['landed_at'])} ({s['landed_source']}) · terminal {ap_.get('terminal')} "
+                       f"porte {ap_.get('gate')} tapis {ap_.get('baggage')}")
             elif s["at_gate"] and not mem.get("at_gate"):
                 mem["at_gate"] = s["at_gate_at"]
-                emit(f"AT_GATE {hhmm(s['at_gate_at'])} · {summary}")
-            elif s["phase"] != mem.get("phase"):
-                emit(f"PHASE {summary}")
-            elif mem.get("eta") and eta and abs((parse_iso(eta) - parse_iso(mem["eta"])).total_seconds()) >= 300:
-                emit(f"ETA_CHANGE {hhmm(mem['eta'])} -> {hhmm(eta)} · {summary}")
+                out = f"AT_GATE {hhmm(s['at_gate_at'])} · {summary}"
             elif t - parse_iso(s["updated_at"]) > timedelta(minutes=8):
                 if t.timestamp() - mem.get("last_stale", 0) > 900:
                     mem["last_stale"] = t.timestamp()
-                    emit(f"STALE dernière mise à jour du traqueur à {hhmm(s['updated_at'])}")
-            elif due:
-                emit(f"REFRESH {summary}")
-            else:
+                    out = f"STALE dernière mise à jour du traqueur à {hhmm(s['updated_at'])}"
+            elif t.timestamp() - mem.get("last_emit", 0) > refresh_every:
+                out = f"REFRESH {summary}"
+            if out is None:
                 if a.once:
                     emit(f"OK {summary}")
+                    return
                 time.sleep(a.interval)
                 continue
+            emit(out)
             mem.update(phase=s["phase"], eta=eta, last_emit=t.timestamp())
             save()
         except Exception as e:  # réseau, branche absente…
