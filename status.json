@@ -1,21 +1,21 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T04:59:18Z",
-  "phase": "descent",
-  "phase_label": "En descente vers Paris",
+  "updated_at": "2026-10-17T05:00:19Z",
+  "phase": "approach",
+  "phase_label": "En approche finale",
   "landed": false,
   "landed_at": null,
   "landed_source": null,
   "at_gate": false,
   "at_gate_at": null,
   "eta": {
-    "best": "2026-10-17T05:09:58Z",
+    "best": "2026-10-17T05:11:11Z",
     "best_source": "Flightradar24",
-    "flightradar24": "2026-10-17T05:09:58Z",
+    "flightradar24": "2026-10-17T05:11:11Z",
     "flightaware_landing": "2026-10-17T05:05:00Z",
     "flightaware_gate": "2026-10-17T05:14:00Z",
-    "adsb_calc": "2026-10-17T05:08:06Z",
+    "adsb_calc": "2026-10-17T05:08:24Z",
     "announced": "2026-10-17T05:35:00Z",
     "scheduled": "2026-10-17T04:35:00Z"
   },
@@ -27,21 +27,21 @@
   },
   "position": {
     "source": "adsb.lol",
-    "lat": 48.835327,
-    "lon": 3.368084,
-    "alt_ft": 6400,
+    "lat": 48.888977,
+    "lon": 3.321111,
+    "alt_ft": 5300,
     "on_ground": false,
-    "gs_kt": 223.1,
-    "track": 329.87,
-    "vs_fpm": -1088,
+    "gs_kt": 223.6,
+    "track": 329.65,
+    "vs_fpm": -1024,
     "hex": "39c429",
     "reg": "F-HRBJ",
     "type": "B789",
     "callsign": "AFR902",
     "squawk": "5571",
-    "at": "2026-10-17T04:59:17Z",
-    "age_s": 1,
-    "dist_km": 63
+    "at": "2026-10-17T05:00:17Z",
+    "age_s": 0,
+    "dist_km": 58
   },
   "approach_seen": null,
   "aircraft": {
@@ -56,26 +56,26 @@
     "gate": null,
     "baggage": null
   },
-  "fr24_text": "Delayed 07:09",
+  "fr24_text": "Delayed 07:11",
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T04:59:17Z",
+      "at": "2026-10-17T05:00:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T04:59:17Z",
+      "at": "2026-10-17T05:00:17Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T04:59:18Z",
+      "at": "2026-10-17T05:00:18Z",
       "error": null
     },
     "flightradar24": {
       "ok": true,
-      "at": "2026-10-17T04:59:18Z",
+      "at": "2026-10-17T05:00:19Z",
       "error": null
     },
     "flightradar24-trace": {
@@ -94,6 +94,11 @@
       "at": "2026-10-17T04:41:18Z",
       "type": "descent",
       "text": "Début de la descente vers Paris"
+    },
+    {
+      "at": "2026-10-17T05:00:19Z",
+      "type": "approach",
+      "text": "En approche finale sur CDG"
     }
   ],
   "notified": {
