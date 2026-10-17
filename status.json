@@ -1,21 +1,21 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T05:09:18Z",
-  "phase": "approach",
-  "phase_label": "En approche finale",
-  "landed": false,
-  "landed_at": null,
-  "landed_source": null,
+  "updated_at": "2026-10-17T05:10:20Z",
+  "phase": "landed",
+  "phase_label": "Atterri à CDG",
+  "landed": true,
+  "landed_at": "2026-10-17T05:10:08Z",
+  "landed_source": "Flightradar24",
   "at_gate": false,
   "at_gate_at": null,
   "eta": {
-    "best": "2026-10-17T05:11:11Z",
-    "best_source": "Flightradar24",
-    "flightradar24": "2026-10-17T05:11:11Z",
-    "flightaware_landing": "2026-10-17T05:09:00Z",
+    "best": "2026-10-17T05:10:08Z",
+    "best_source": "atterrissage réel",
+    "flightradar24": "2026-10-17T05:10:08Z",
+    "flightaware_landing": "2026-10-17T05:10:00Z",
     "flightaware_gate": "2026-10-17T05:19:00Z",
-    "adsb_calc": "2026-10-17T05:10:01Z",
+    "adsb_calc": null,
     "announced": "2026-10-17T05:35:00Z",
     "scheduled": "2026-10-17T04:35:00Z"
   },
@@ -26,22 +26,17 @@
     "source": "Flightradar24"
   },
   "position": {
-    "source": "adsb.lol",
-    "lat": 48.99614,
-    "lon": 2.625521,
-    "alt_ft": 275,
+    "source": "flightradar24",
+    "lat": 48.99353,
+    "lon": 2.576716,
+    "alt_ft": 0,
     "on_ground": false,
-    "gs_kt": 147.5,
-    "track": 265.33,
-    "vs_fpm": -864,
-    "hex": "39c429",
-    "reg": "F-HRBJ",
-    "type": "B789",
-    "callsign": "AFR902",
-    "squawk": "5571",
-    "at": "2026-10-17T05:09:11Z",
-    "age_s": 6,
-    "dist_km": 6
+    "gs_kt": 30,
+    "track": 264,
+    "vs_fpm": null,
+    "at": "2026-10-17T05:10:10Z",
+    "age_s": 10,
+    "dist_km": 3
   },
   "approach_seen": "2026-10-17T05:09:11Z",
   "aircraft": {
@@ -56,36 +51,36 @@
     "gate": null,
     "baggage": null
   },
-  "fr24_text": "Delayed 07:11",
+  "fr24_text": "Landed 07:10",
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T05:09:17Z",
+      "at": "2026-10-17T05:10:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T05:09:17Z",
+      "at": "2026-10-17T05:10:18Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T05:09:18Z",
+      "at": "2026-10-17T05:10:18Z",
       "error": null
     },
     "flightradar24": {
       "ok": true,
-      "at": "2026-10-17T05:09:18Z",
+      "at": "2026-10-17T05:10:19Z",
       "error": null
     },
     "flightradar24-trace": {
       "ok": true,
-      "at": "2026-10-17T03:06:20Z",
+      "at": "2026-10-17T05:10:20Z",
       "error": null
     },
     "flightaware": {
       "ok": true,
-      "at": "2026-10-17T05:09:18Z",
+      "at": "2026-10-17T05:10:20Z",
       "error": null
     }
   },
@@ -99,10 +94,16 @@
       "at": "2026-10-17T05:00:19Z",
       "type": "approach",
       "text": "En approche finale sur CDG"
+    },
+    {
+      "at": "2026-10-17T05:10:20Z",
+      "type": "landed",
+      "text": "Atterri à 07:10 (source : Flightradar24)"
     }
   ],
   "notified": {
-    "descent": "2026-10-17T04:41:18Z"
+    "descent": "2026-10-17T04:41:18Z",
+    "landed": "2026-10-17T05:10:21Z"
   },
   "run": {
     "id": "38985056982",
