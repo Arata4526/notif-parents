@@ -1,7 +1,7 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T04:13:18Z",
+  "updated_at": "2026-10-17T04:14:18Z",
   "phase": "cruise",
   "phase_label": "En croisière",
   "landed": false,
@@ -15,7 +15,7 @@
     "flightradar24": "2026-10-17T05:11:32Z",
     "flightaware_landing": "2026-10-17T05:08:00Z",
     "flightaware_gate": "2026-10-17T05:17:00Z",
-    "adsb_calc": "2026-10-17T05:09:51Z",
+    "adsb_calc": "2026-10-17T05:10:05Z",
     "announced": "2026-10-17T05:35:00Z",
     "scheduled": "2026-10-17T04:35:00Z"
   },
@@ -26,22 +26,22 @@
     "source": "Flightradar24"
   },
   "position": {
-    "source": "adsb.lol",
-    "lat": 43.545181,
-    "lon": 4.772218,
+    "source": "adsb.fi",
+    "lat": 43.679872,
+    "lon": 4.787489,
     "alt_ft": 38000,
     "on_ground": false,
-    "gs_kt": 488.7,
-    "track": 4.81,
-    "vs_fpm": 192,
+    "gs_kt": 485.7,
+    "track": 4.72,
+    "vs_fpm": -32,
     "hex": "39c429",
     "reg": "F-HRBJ",
     "type": "B789",
     "callsign": "AFR902",
     "squawk": "5571",
-    "at": "2026-10-17T04:13:17Z",
+    "at": "2026-10-17T04:14:17Z",
     "age_s": 0,
-    "dist_km": 631
+    "dist_km": 617
   },
   "approach_seen": null,
   "aircraft": {
@@ -60,22 +60,22 @@
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T04:13:17Z",
+      "at": "2026-10-17T04:14:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T04:13:17Z",
+      "at": "2026-10-17T04:14:17Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T04:13:18Z",
+      "at": "2026-10-17T04:14:18Z",
       "error": null
     },
     "flightradar24": {
       "ok": true,
-      "at": "2026-10-17T04:12:18Z",
+      "at": "2026-10-17T04:14:18Z",
       "error": null
     },
     "flightradar24-trace": {
@@ -85,7 +85,7 @@
     },
     "flightaware": {
       "ok": true,
-      "at": "2026-10-17T04:10:19Z",
+      "at": "2026-10-17T04:14:18Z",
       "error": null
     }
   },
