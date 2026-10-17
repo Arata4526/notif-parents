@@ -1,7 +1,7 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T00:31:18Z",
+  "updated_at": "2026-10-17T00:34:19Z",
   "phase": "cruise",
   "phase_label": "En croisière",
   "landed": false,
@@ -10,12 +10,12 @@
   "at_gate": false,
   "at_gate_at": null,
   "eta": {
-    "best": "2026-10-17T05:15:44Z",
+    "best": "2026-10-17T05:11:14Z",
     "best_source": "Flightradar24",
-    "flightradar24": "2026-10-17T05:15:44Z",
+    "flightradar24": "2026-10-17T05:11:14Z",
     "flightaware_landing": "2026-10-17T04:46:00Z",
     "flightaware_gate": "2026-10-17T04:56:00Z",
-    "adsb_calc": "2026-10-17T05:06:47Z",
+    "adsb_calc": "2026-10-17T05:05:34Z",
     "announced": "2026-10-17T05:35:00Z",
     "scheduled": "2026-10-17T04:35:00Z"
   },
@@ -27,16 +27,16 @@
   },
   "position": {
     "source": "flightradar24",
-    "lat": 13.548981,
-    "lon": 0.311169,
+    "lat": 13.890839,
+    "lon": 0.041246,
     "alt_ft": 36000,
     "on_ground": false,
-    "gs_kt": 490,
+    "gs_kt": 494,
     "track": 322,
     "vs_fpm": null,
-    "at": "2026-10-17T00:30:59Z",
-    "age_s": 20,
-    "dist_km": 3948
+    "at": "2026-10-17T00:34:08Z",
+    "age_s": 11,
+    "dist_km": 3912
   },
   "approach_seen": null,
   "aircraft": {
@@ -51,36 +51,36 @@
     "gate": null,
     "baggage": null
   },
-  "fr24_text": "Delayed 07:15",
+  "fr24_text": "Delayed 07:11",
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T00:31:17Z",
+      "at": "2026-10-17T00:34:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T00:31:18Z",
+      "at": "2026-10-17T00:34:18Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T00:31:18Z",
+      "at": "2026-10-17T00:34:18Z",
       "error": null
     },
     "flightradar24": {
       "ok": true,
-      "at": "2026-10-17T00:30:19Z",
+      "at": "2026-10-17T00:34:19Z",
       "error": null
     },
     "flightradar24-trace": {
       "ok": true,
-      "at": "2026-10-17T00:31:18Z",
+      "at": "2026-10-17T00:34:19Z",
       "error": null
     },
     "flightaware": {
       "ok": true,
-      "at": "2026-10-17T00:30:20Z",
+      "at": "2026-10-17T00:34:19Z",
       "error": null
     }
   },
