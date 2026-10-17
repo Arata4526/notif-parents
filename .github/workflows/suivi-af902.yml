@@ -1,0 +1,46 @@
+name: Suivi AF902
+
+on:
+  push:
+    branches: [claude/suivi-af902]
+    paths: ["tracker/**", ".github/workflows/suivi-af902.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+# Une seule exécution à la fois : une nouvelle remplace l'ancienne.
+concurrency:
+  group: suivi-af902
+  cancel-in-progress: true
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Préparer la branche live
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin live >/dev/null; then
+            git fetch --depth=50 origin +refs/heads/live:refs/remotes/origin/live
+            git worktree add -B live live-data origin/live
+          else
+            git worktree add --detach live-data
+            git -C live-data checkout --orphan live
+            git -C live-data rm -rf --quiet .
+          fi
+
+      - name: Suivre le vol
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LIVE_DIR: live-data
+          POLL_SECONDS: "60"
+          MAX_MINUTES: "345"
+          NTFY_TOPIC: af902-093bf9a590
+          NOTIFY_MENTION: "@Arata4526"
+        run: python3 tracker/track.py
