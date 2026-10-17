@@ -307,3 +307,4 @@
 {"t": "2026-10-17T05:09:18Z", "phase": "approach", "eta": "2026-10-17T05:11:11Z", "eta_src": "Flightradar24", "lat": 48.99614, "lon": 2.625521, "alt": 275, "gs": 147.5, "dist": 6, "age": 6}
 {"t": "2026-10-17T05:10:20Z", "phase": "landed", "eta": "2026-10-17T05:10:08Z", "eta_src": "atterrissage réel", "lat": 48.99353, "lon": 2.576716, "alt": 0, "gs": 30, "dist": 3, "age": 10}
 {"t": "2026-10-17T05:11:20Z", "phase": "landed", "eta": "2026-10-17T05:10:08Z", "eta_src": "atterrissage réel", "lat": 48.994682, "lon": 2.568361, "alt": 0, "gs": 15, "dist": 2, "age": 15}
+{"t": "2026-10-17T05:12:20Z", "phase": "landed", "eta": "2026-10-17T05:10:08Z", "eta_src": "atterrissage réel", "lat": 48.996243, "lon": 2.566247, "alt": 0, "gs": 14, "dist": 2, "age": 28}
