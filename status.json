@@ -1,7 +1,7 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T00:09:46Z",
+  "updated_at": "2026-10-17T00:10:21Z",
   "phase": "cruise",
   "phase_label": "En croisière",
   "landed": false,
@@ -15,7 +15,7 @@
     "flightradar24": "2026-10-17T05:09:14Z",
     "flightaware_landing": "2026-10-17T04:46:00Z",
     "flightaware_gate": "2026-10-17T04:56:00Z",
-    "adsb_calc": "2026-10-17T05:01:04Z",
+    "adsb_calc": "2026-10-17T05:00:43Z",
     "announced": "2026-10-17T05:35:00Z",
     "scheduled": "2026-10-17T04:35:00Z"
   },
@@ -27,16 +27,16 @@
   },
   "position": {
     "source": "flightradar24",
-    "lat": 11.177891,
-    "lon": 2.157802,
+    "lat": 11.294829,
+    "lon": 2.067598,
     "alt_ft": 35975,
     "on_ground": false,
-    "gs_kt": 492,
+    "gs_kt": 493,
     "track": 322,
     "vs_fpm": null,
-    "at": "2026-10-17T00:09:13Z",
-    "age_s": 34,
-    "dist_km": 4207
+    "at": "2026-10-17T00:10:16Z",
+    "age_s": 6,
+    "dist_km": 4194
   },
   "approach_seen": null,
   "aircraft": {
@@ -48,47 +48,47 @@
   },
   "airport": {
     "terminal": "2E",
-    "gate": "1",
+    "gate": null,
     "baggage": null
   },
   "fr24_text": "Delayed 07:09",
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T00:09:45Z",
+      "at": "2026-10-17T00:10:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T00:09:46Z",
+      "at": "2026-10-17T00:10:20Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T00:09:46Z",
+      "at": "2026-10-17T00:10:20Z",
       "error": null
     },
     "flightradar24": {
       "ok": true,
-      "at": "2026-10-17T00:09:46Z",
+      "at": "2026-10-17T00:10:21Z",
       "error": null
     },
     "flightradar24-trace": {
       "ok": true,
-      "at": "2026-10-17T00:09:46Z",
+      "at": "2026-10-17T00:10:21Z",
       "error": null
     },
     "flightaware": {
       "ok": true,
-      "at": "2026-10-17T00:07:47Z",
+      "at": "2026-10-17T00:10:21Z",
       "error": null
     }
   },
   "events": [],
   "notified": {},
   "run": {
-    "id": "38984579257",
-    "started_at": "2026-10-17T00:03:45Z",
-    "url": "https://github.com/Arata4526/notif-parents/actions/runs/38984579257"
+    "id": "38985056982",
+    "started_at": "2026-10-17T00:10:17Z",
+    "url": "https://github.com/Arata4526/notif-parents/actions/runs/38985056982"
   }
 }
