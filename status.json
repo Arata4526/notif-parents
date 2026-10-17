@@ -1,7 +1,7 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T03:37:18Z",
+  "updated_at": "2026-10-17T03:40:18Z",
   "phase": "cruise",
   "phase_label": "En croisière",
   "landed": false,
@@ -10,9 +10,9 @@
   "at_gate": false,
   "at_gate_at": null,
   "eta": {
-    "best": "2026-10-17T05:08:56Z",
+    "best": "2026-10-17T05:08:49Z",
     "best_source": "Flightradar24",
-    "flightradar24": "2026-10-17T05:08:56Z",
+    "flightradar24": "2026-10-17T05:08:49Z",
     "flightaware_landing": "2026-10-17T05:08:00Z",
     "flightaware_gate": "2026-10-17T05:17:00Z",
     "adsb_calc": "2026-10-17T05:06:09Z",
@@ -26,22 +26,22 @@
     "source": "Flightradar24"
   },
   "position": {
-    "source": "adsb.fi",
-    "lat": 38.850775,
-    "lon": 2.923584,
-    "alt_ft": 37975,
+    "source": "adsb.lol",
+    "lat": 39.226359,
+    "lon": 3.141602,
+    "alt_ft": 38000,
     "on_ground": false,
-    "gs_kt": 495.0,
-    "track": 24.34,
-    "vs_fpm": 96,
+    "gs_kt": 497.6,
+    "track": 24.45,
+    "vs_fpm": 0,
     "hex": "39c429",
     "reg": "F-HRBJ",
     "type": "B789",
     "callsign": "AFR902",
     "squawk": "5571",
-    "at": "2026-10-17T03:37:17Z",
-    "age_s": 0,
-    "dist_km": 1130
+    "at": "2026-10-17T03:40:17Z",
+    "age_s": 1,
+    "dist_km": 1089
   },
   "approach_seen": null,
   "aircraft": {
@@ -60,22 +60,22 @@
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T03:37:17Z",
+      "at": "2026-10-17T03:40:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T03:37:17Z",
+      "at": "2026-10-17T03:40:17Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T03:37:18Z",
+      "at": "2026-10-17T03:40:18Z",
       "error": null
     },
     "flightradar24": {
       "ok": true,
-      "at": "2026-10-17T03:36:18Z",
+      "at": "2026-10-17T03:40:18Z",
       "error": null
     },
     "flightradar24-trace": {
@@ -85,7 +85,7 @@
     },
     "flightaware": {
       "ok": true,
-      "at": "2026-10-17T03:34:19Z",
+      "at": "2026-10-17T03:38:18Z",
       "error": null
     }
   },
