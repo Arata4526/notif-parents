@@ -1,7 +1,7 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T00:55:19Z",
+  "updated_at": "2026-10-17T00:58:20Z",
   "phase": "cruise",
   "phase_label": "En croisière",
   "landed": false,
@@ -10,9 +10,9 @@
   "at_gate": false,
   "at_gate_at": null,
   "eta": {
-    "best": "2026-10-17T05:07:23Z",
+    "best": "2026-10-17T05:08:24Z",
     "best_source": "Flightradar24",
-    "flightradar24": "2026-10-17T05:07:23Z",
+    "flightradar24": "2026-10-17T05:08:24Z",
     "flightaware_landing": "2026-10-17T05:09:00Z",
     "flightaware_gate": "2026-10-17T05:18:00Z",
     "adsb_calc": null,
@@ -35,7 +35,7 @@
     "track": 353,
     "vs_fpm": null,
     "at": "2026-10-17T00:54:37Z",
-    "age_s": 42,
+    "age_s": 223,
     "dist_km": 3602
   },
   "approach_seen": null,
@@ -51,36 +51,36 @@
     "gate": null,
     "baggage": null
   },
-  "fr24_text": "Delayed 07:07",
+  "fr24_text": "Delayed 07:08",
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T00:55:17Z",
+      "at": "2026-10-17T00:58:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T00:55:18Z",
+      "at": "2026-10-17T00:58:18Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T00:55:18Z",
+      "at": "2026-10-17T00:58:19Z",
       "error": null
     },
     "flightradar24": {
       "ok": true,
-      "at": "2026-10-17T00:54:18Z",
+      "at": "2026-10-17T00:58:20Z",
       "error": null
     },
     "flightradar24-trace": {
       "ok": true,
-      "at": "2026-10-17T00:55:19Z",
+      "at": "2026-10-17T00:58:20Z",
       "error": null
     },
     "flightaware": {
       "ok": true,
-      "at": "2026-10-17T00:54:19Z",
+      "at": "2026-10-17T00:58:20Z",
       "error": null
     }
   },
