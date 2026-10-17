@@ -1,0 +1,104 @@
+{
+  "flight": "AF902",
+  "route": "Yaoundé (NSI) → Paris-CDG",
+  "updated_at": "2026-10-17T00:08:45Z",
+  "phase": "landed",
+  "phase_label": "Atterri à CDG",
+  "landed": true,
+  "landed_at": "2026-10-17T00:08:42Z",
+  "landed_source": "ADS-B (airplanes.live) : au sol à CDG",
+  "at_gate": false,
+  "at_gate_at": null,
+  "eta": {
+    "best": "2026-10-17T00:08:42Z",
+    "best_source": "atterrissage réel",
+    "flightradar24": "2026-10-17T05:28:20Z",
+    "flightaware_landing": null,
+    "flightaware_gate": null,
+    "adsb_calc": null,
+    "announced": "2026-10-17T05:35:00Z",
+    "scheduled": "2026-10-17T04:35:00Z"
+  },
+  "departure": {
+    "scheduled": "2026-10-16T21:25:00Z",
+    "announced": "2026-10-16T22:35:00Z",
+    "actual": "2026-10-16T22:35:00Z",
+    "source": "Flightradar24"
+  },
+  "position": {
+    "source": "airplanes.live",
+    "lat": 49.01,
+    "lon": 2.55,
+    "alt_ft": 0,
+    "on_ground": true,
+    "gs_kt": 20,
+    "track": 350,
+    "vs_fpm": -1800,
+    "hex": "39e68b",
+    "reg": "F-HRBA",
+    "type": "B789",
+    "callsign": "AFR902",
+    "squawk": null,
+    "at": "2026-10-17T00:08:42Z",
+    "age_s": 3,
+    "dist_km": 0
+  },
+  "approach_seen": null,
+  "aircraft": {
+    "reg": "F-HRBA",
+    "type": "B789",
+    "model": "Boeing 787-9 Dreamliner",
+    "hex": "39e68b",
+    "callsign": "AFR902"
+  },
+  "airport": {
+    "terminal": "2E",
+    "gate": "K45",
+    "baggage": null
+  },
+  "fr24_text": "Estimated- 07:22",
+  "sources": {
+    "airplanes.live": {
+      "ok": true,
+      "at": "2026-10-17T00:08:45Z",
+      "error": null
+    },
+    "adsb.lol": {
+      "ok": false,
+      "at": "2026-10-17T00:08:45Z",
+      "error": "blocked in test: https://api.adsb.lol/v2/callsign/AFR902"
+    },
+    "adsb.fi": {
+      "ok": false,
+      "at": "2026-10-17T00:08:45Z",
+      "error": "blocked in test: https://opendata.adsb.fi/api/v2/callsign"
+    },
+    "flightradar24": {
+      "ok": true,
+      "at": "2026-10-17T00:08:45Z",
+      "error": null
+    },
+    "flightaware": {
+      "ok": false,
+      "at": "2026-10-17T00:08:45Z",
+      "error": "blocked in test: https://www.flightaware.com/live/flight/"
+    }
+  },
+  "events": [
+    {
+      "at": "2026-10-17T00:08:45Z",
+      "type": "descent",
+      "text": "Début de la descente vers Paris"
+    },
+    {
+      "at": "2026-10-17T00:08:45Z",
+      "type": "landed",
+      "text": "Atterri à 02:08 (source : ADS-B (airplanes.live) : au sol à CDG)"
+    }
+  ],
+  "notified": {
+    "descent": "2026-10-17T00:08:45Z",
+    "landed": "2026-10-17T00:08:45Z"
+  },
+  "run": {}
+}

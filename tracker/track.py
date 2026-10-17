@@ -52,6 +52,8 @@ ADSB_SOURCES = {
     "adsb.fi": "https://opendata.adsb.fi/api/v2",
 }
 
+GATE_RE = re.compile(r"[A-Z]{1,2}\d{1,3}[A-Z]?")
+
 PHASE_LABELS = {
     "scheduled": "Pas encore décollé",
     "airborne": "En vol",
@@ -383,13 +385,15 @@ def update(state, adsb, fr24, fa):
         for k in ("terminal", "gate", "baggage"):
             if fr24.get(k):
                 ap[k] = fr24[k]
+        if ap.get("gate") and not GATE_RE.fullmatch(str(ap["gate"])):
+            ap["gate"] = None  # FR24 renvoie parfois "1" en attendant la vraie porte (K45, L32…)
         if fr24.get("real_dep"):
             state["departure"].update(actual=fr24["real_dep"], source="Flightradar24")
         state["eta"]["flightradar24"] = fr24.get("est_arr") or fr24.get("eta")
     if fa:
         if fa.get("terminal"):
             ap["terminal"] = fa["terminal"]
-        if fa.get("gate") and not ap.get("gate"):
+        if fa.get("gate") and not ap.get("gate") and GATE_RE.fullmatch(str(fa["gate"])):
             ap["gate"] = fa["gate"]
         if fa.get("takeoff_actual") and not state["departure"].get("actual"):
             state["departure"].update(actual=fa["takeoff_actual"], source="FlightAware")
