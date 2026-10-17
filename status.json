@@ -1,7 +1,7 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T05:19:19Z",
+  "updated_at": "2026-10-17T05:20:19Z",
   "phase": "landed",
   "phase_label": "Atterri à CDG",
   "landed": true,
@@ -55,22 +55,22 @@
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T05:19:17Z",
+      "at": "2026-10-17T05:20:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T05:19:18Z",
+      "at": "2026-10-17T05:20:18Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T05:19:19Z",
+      "at": "2026-10-17T05:20:18Z",
       "error": null
     },
     "flightradar24": {
       "ok": true,
-      "at": "2026-10-17T05:18:18Z",
+      "at": "2026-10-17T05:20:19Z",
       "error": null
     },
     "flightradar24-trace": {
@@ -80,7 +80,7 @@
     },
     "flightaware": {
       "ok": true,
-      "at": "2026-10-17T05:19:19Z",
+      "at": "2026-10-17T05:20:19Z",
       "error": null
     }
   },

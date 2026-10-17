@@ -1,6 +1,6 @@
 # AF902 Yaoundé → Paris-CDG : Atterri à CDG
 
-_Mis à jour à 07:19:19 (heure de Paris). Rafraîchir la page pour la dernière version._
+_Mis à jour à 07:20:19 (heure de Paris). Rafraîchir la page pour la dernière version._
 
 ## Atterri à 07:10  (Flightradar24)
 
