@@ -1,7 +1,7 @@
 {
   "flight": "AF902",
   "route": "Yaoundé (NSI) → Paris-CDG",
-  "updated_at": "2026-10-17T03:49:18Z",
+  "updated_at": "2026-10-17T03:52:18Z",
   "phase": "cruise",
   "phase_label": "En croisière",
   "landed": false,
@@ -15,7 +15,7 @@
     "flightradar24": "2026-10-17T05:10:20Z",
     "flightaware_landing": "2026-10-17T05:08:00Z",
     "flightaware_gate": "2026-10-17T05:17:00Z",
-    "adsb_calc": "2026-10-17T05:06:24Z",
+    "adsb_calc": "2026-10-17T05:07:00Z",
     "announced": "2026-10-17T05:35:00Z",
     "scheduled": "2026-10-17T04:35:00Z"
   },
@@ -27,21 +27,21 @@
   },
   "position": {
     "source": "adsb.lol",
-    "lat": 40.366004,
-    "lon": 3.819372,
+    "lat": 40.746414,
+    "lon": 4.051025,
     "alt_ft": 37975,
     "on_ground": false,
-    "gs_kt": 505.1,
-    "track": 24.94,
-    "vs_fpm": 0,
+    "gs_kt": 503.3,
+    "track": 25.04,
+    "vs_fpm": 224,
     "hex": "39c429",
     "reg": "F-HRBJ",
     "type": "B789",
     "callsign": "AFR902",
     "squawk": "5571",
-    "at": "2026-10-17T03:49:17Z",
-    "age_s": 0,
-    "dist_km": 966
+    "at": "2026-10-17T03:52:17Z",
+    "age_s": 1,
+    "dist_km": 926
   },
   "approach_seen": null,
   "aircraft": {
@@ -60,22 +60,22 @@
   "sources": {
     "airplanes.live": {
       "ok": false,
-      "at": "2026-10-17T03:49:17Z",
+      "at": "2026-10-17T03:52:17Z",
       "error": "HTTP Error 403: Forbidden"
     },
     "adsb.lol": {
       "ok": true,
-      "at": "2026-10-17T03:49:17Z",
+      "at": "2026-10-17T03:52:17Z",
       "error": null
     },
     "adsb.fi": {
       "ok": true,
-      "at": "2026-10-17T03:49:18Z",
+      "at": "2026-10-17T03:52:18Z",
       "error": null
     },
     "flightradar24": {
       "ok": true,
-      "at": "2026-10-17T03:48:18Z",
+      "at": "2026-10-17T03:52:18Z",
       "error": null
     },
     "flightradar24-trace": {
@@ -85,7 +85,7 @@
     },
     "flightaware": {
       "ok": true,
-      "at": "2026-10-17T03:46:19Z",
+      "at": "2026-10-17T03:50:18Z",
       "error": null
     }
   },
