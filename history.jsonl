@@ -248,3 +248,4 @@
 {"t": "2026-10-17T04:10:19Z", "phase": "cruise", "eta": "2026-10-17T05:11:32Z", "eta_src": "Flightradar24", "lat": 43.139121, "lon": 4.72641, "alt": 37975, "gs": 490.6, "dist": 674, "age": 0}
 {"t": "2026-10-17T04:11:18Z", "phase": "cruise", "eta": "2026-10-17T05:11:32Z", "eta_src": "Flightradar24", "lat": 43.272121, "lon": 4.741385, "alt": 37975, "gs": 491.7, "dist": 660, "age": 1}
 {"t": "2026-10-17T04:12:18Z", "phase": "cruise", "eta": "2026-10-17T05:11:32Z", "eta_src": "Flightradar24", "lat": 43.409217, "lon": 4.756818, "alt": 37975, "gs": 490.6, "dist": 645, "age": 1}
+{"t": "2026-10-17T04:13:18Z", "phase": "cruise", "eta": "2026-10-17T05:11:32Z", "eta_src": "Flightradar24", "lat": 43.545181, "lon": 4.772218, "alt": 38000, "gs": 488.7, "dist": 631, "age": 0}
